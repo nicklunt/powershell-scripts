@@ -1,7 +1,7 @@
 ﻿$ms_phone_number = "(0) (800) 018 8354 OR (44) (203) 147 4930"
 
 # Get the product key for VAS from AWS parameter store
-$product_key = aws ssm get-parameter --name "lecp-volume-licencing-key" | ConvertFrom-json.Parameter.Value
+$product_key = aws ssm get-parameter --name "volume-licencing-key" | ConvertFrom-json.Parameter.Value
 
 # Get IID to give Microsoft
 slmgr.vbs /ad-activation-get-IID ${product_key}
