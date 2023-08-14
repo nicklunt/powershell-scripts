@@ -11,3 +11,9 @@
 - [ ] staging
 - [ ] preview
 - [ ] production
+
+## Attach Plans for Environments
+- [ ] staging
+- [ ] preview
+- [ ] production
+
